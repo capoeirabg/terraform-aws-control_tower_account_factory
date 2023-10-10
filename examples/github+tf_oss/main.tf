@@ -13,7 +13,7 @@ module "aft" {
   # VCS Vars
   vcs_provider                                  = "github"
   account_request_repo_name                     = "capoeirabg/aft-account-request"
-  global_customizations_repo_name               = "capoeirabg/aft-global-customizations "
-  account_customizations_repo_name              = "capoeirabg/aft-account-customizations "
-  account_provisioning_customizations_repo_name = "capoeirabg/aft-account-provisioning-customizations "
+  global_customizations_repo_name               = "capoeirabg/aft-global-customizations"
+  account_customizations_repo_name              = "capoeirabg/aft-account-customizations"
+  account_provisioning_customizations_repo_name = "capoeirabg/aft-account-provisioning-customizations"
 }
