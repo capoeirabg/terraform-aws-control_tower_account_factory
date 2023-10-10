@@ -4,16 +4,16 @@
 module "aft" {
   source = "github.com/aws-ia/terraform-aws-control_tower_account_factory"
   # Required Vars
-  ct_management_account_id    = "111122223333"
-  log_archive_account_id      = "444455556666"
-  audit_account_id            = "123456789012"
-  aft_management_account_id   = "777788889999"
-  ct_home_region              = "us-east-1"
-  tf_backend_secondary_region = "us-west-2"
+  ct_management_account_id    = "723196523893"
+  log_archive_account_id      = "675016221918"
+  audit_account_id            = "183853278980"
+  aft_management_account_id   = "899109537423"
+  ct_home_region              = "eu-west-1"
+  tf_backend_secondary_region = "eu-central-1"
   # VCS Vars
   vcs_provider                                  = "github"
-  account_request_repo_name                     = "ExampleOrg/example-repo-1"
-  global_customizations_repo_name               = "ExampleOrg/example-repo-2"
-  account_customizations_repo_name              = "ExampleOrg/example-repo-3"
-  account_provisioning_customizations_repo_name = "ExampleOrg/example-repo-4"
+  account_request_repo_name                     = "capoeirabg/aft-account-request"
+  global_customizations_repo_name               = "capoeirabg/aft-global-customizations "
+  account_customizations_repo_name              = "capoeirabg/aft-account-customizations "
+  account_provisioning_customizations_repo_name = "capoeirabg/aft-account-provisioning-customizations "
 }
